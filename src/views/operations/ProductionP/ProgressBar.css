@@ -1,0 +1,37 @@
+.progress-bar-container {
+    position: relative;
+    height: 20px; /* Adjust height as needed */
+    background-color: #31E1F7; /* Base background */
+    width: 400px; /* Fixed visual width */
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.progress-bar-container-modal {
+    position: relative;
+    height: 20px; /* Adjust height as needed */
+    background-color: #31E1F7; /* Base background */
+    width: auto; /* Fixed visual width */
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.progress-segment {
+    height: 100%;
+    transition: width 0.5s ease;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.progress-segment.first-segment {
+    /* border-radius: 10px 0px 0px 10px; */
+}
+
+.progress-segment.last-segment {
+    /* border-radius: 0px 10px 10px 0px; */
+}
+
+.progress-segment.single-segment {
+    /* border-radius: 10px; */
+}
+
+.remaining-segment {
+    background-color: #e0e0e0; /* Color of the remaining space */
+}
